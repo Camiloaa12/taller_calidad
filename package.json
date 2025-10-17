@@ -5,7 +5,8 @@
   "description": "Ejemplo mínimo para pruebas y análisis con SonarCloud",
   "scripts": {
     "test": "jest --coverage --passWithNoTests",
-    "coverage": "jest --coverage"
+    "coverage": "jest --coverage",
+    "test:coverage": "jest --coverage"
   },
   "devDependencies": {
     "jest": "^29.7.0"
