@@ -39,8 +39,8 @@ jobs:
             -Dsonar.test.inclusions=**/*.test.js
             -Dsonar.exclusions=**/*.test.js
             -Dsonar.javascript.lcov.reportPaths=coverage/lcov.info
-            -Dsonar.projectKey=${{ secrets.SONAR_PROJECT_KEY }}
-            -Dsonar.organization=${{ secrets.SONAR_ORGANIZATION }}
+            -Dsonar.projectKey=Camiloaa12_taller_calidad
+            -Dsonar.organization=Camiloaa12
 
       - name: Upload coverage artifact
         if: always()
